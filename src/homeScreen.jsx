@@ -13,7 +13,6 @@ function HomePage() {
   const handleEmailButtonClick = () => {
     setShowEmailInput(!showEmailInput);
     if(showEmailInput) {
-      //Send email to db
       setButtonName("Get email updates");
     } 
     else {
